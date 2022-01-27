@@ -21,19 +21,67 @@ Each step will require you to add or extract some information from the Meerkats 
 Create a new Class with the above list of Meerkats, and print it to the console
 Example output:
 ```
-{"Name":"Aleksandr","Age":30,"LowerCase":"aleksandr"}
-{"Name":"Auto Sergei","Age":77,"LowerCase":"auto sergei"}
-{"Name":"Maiya","Age":25,"LowerCase":"maiya"}
-{"Name":"Oleg","Age":5,"LowerCase":"oleg"}
-{"Name":"Hannah","Age":20,"LowerCase":"hannah"}
+{"Name":"Aleksandr","Age":30}
+{"Name":"Auto Sergei","Age":77}
+{"Name":"Maiya","Age":25}
+{"Name":"Oleg","Age":5}
+{"Name":"Hannah","Age":20}
 ```
 
 ### Step 2
 Remove from the list any Meerkat who is under the age of 10.  
 Example output:  
 ```
-{"Name":"Aleksandr","Age":30,"LowerCase":"aleksandr"}
-{"Name":"Auto Sergei","Age":77,"LowerCase":"auto sergei"}
-{"Name":"Maiya","Age":25,"LowerCase":"maiya"}
-{"Name":"Hannah","Age":20,"LowerCase":"hannah"}
+{"Name":"Aleksandr","Age":30}
+{"Name":"Auto Sergei","Age":77}
+{"Name":"Maiya","Age":25}
+{"Name":"Hannah","Age":20}
+```
+
+### Step 3
+Add up the total age of all the meerkats in the list.  
+Example output:   
+```
+152
+```
+
+### Step 4
+Add a new meerkat as the 4th meerkat in the list.  
+Example output:   
+```
+{"Name":"Aleksandr","Age":30}
+{"Name":"Auto Sergei","Age":77}
+{"Name":"Maiya","Age":25}
+{"Name":"My new meerkat","Age":30}
+{"Name":"Hannah","Age":20}
+```
+
+### Step 5
+Sort the Meerkats in descending order by Age.  
+Example output:   
+```  
+{"Name":"Auto Sergei","Age":77}
+{"Name":"Aleksandr","Age":30}
+{"Name":"My new meerkat","Age":30}
+{"Name":"Maiya","Age":25}
+{"Name":"Hannah","Age":20}
+```
+
+### Step 6
+List the name of any Meerkat whose name is a Palindrome.  
+[Here](https://examples.yourdictionary.com/palindrome-examples.html) is a list of palindromes to assist.  
+
+Example output:  
+```
+hannah
+```
+
+### Step 7
+Group the Meerkats by Age.  
+Example output:  
+```
+[{"Name":"Auto Sergei","Age":77}]
+[{"Name":"Aleksandr","Age":30},{"Name":"My new meerkat","Age":30}]
+[{"Name":"Maiya","Age":25}]
+[{"Name":"Hannah","Age":20}]
 ```
