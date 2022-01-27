@@ -76,6 +76,9 @@ Example output:
 hannah
 ```
 
+### Intermission
+Consider we have a new type of Meerkat, a Super Meerkat - create a new type that can do everything a Meerkat can
+
 ### Step 7
 Group the Meerkats by Age.  
 Example output:  
@@ -94,4 +97,14 @@ Find the Factorial of Baby Olegs age.
 Example output:  
 ```
 120
+```
+
+### Step 9
+Consider the following sentence:  
+`"my very very favourite meerkat is auto sergei";`  
+
+Find how many times a word repeats.  
+Example output:  
+```
+{"my":1,"very":2,"favourite":1,"meerkat":1,"is":1,"auto":1,"sergei":1}
 ```
