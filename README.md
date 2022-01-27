@@ -85,3 +85,13 @@ Example output:
 [{"Name":"Maiya","Age":25}]
 [{"Name":"Hannah","Age":20}]
 ```
+
+### Step 8
+
+Find the Factorial of Baby Olegs age.
+* For example Oleg is 5.  The factorial of 5 is 120.
+* It is calculated by multiplying 5 with 4 and its result with 3 and its result with 2, and its result with 1    
+Example output:  
+```
+120
+```
